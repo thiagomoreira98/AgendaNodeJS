@@ -1,13 +1,12 @@
 module.exports = function(app){
-	return {
-		ping
-	}
+  return {
+    ping
+  }
 }
 
-
 function ping(req, res){
-	return res.json({
-		status: "OK",
-		data: new Date()
-		});
+  return res.json({
+    status: "ok",
+    data: new Date()
+  });
 }
