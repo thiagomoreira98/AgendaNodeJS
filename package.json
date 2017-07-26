@@ -6,7 +6,7 @@
   "scripts": {
     "test": "node app.js"
   },
-  "author": "ziliotti",
+  "author": "Tchuco",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.17.2",
